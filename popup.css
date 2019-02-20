@@ -1,0 +1,35 @@
+html{
+    background: url(gradient.png);
+    height: 100%;
+    max-height: 170px;
+  }
+
+figure{
+  width: 10%;
+  height: 10%;
+  padding: 0px;
+  float: left;
+  background-position: 0% 0%;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+div{
+  display: inline;
+  text-align: center;
+}
+
+#name{
+  text-align: center;
+  font-weight: bold;
+}
+
+#dat{
+  font-weight: bold;
+}
+
+#prc{
+  font-weight: bold;
+}

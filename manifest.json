@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "SubTrakt",
+  "description": "An extension to track your subscriptions and remind you when they're due",
+  "version": "1.0",
+  "author": "Carl, Yash, Thang, Muhammad, Madlyn",
+
+  "background": {
+    "scripts": ["background.js", "billingReminder.js", "backgroundNetflix.js"],
+    "persistent": true
+  },
+
+  "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/",
+        "webNavigation"
+    ],
+  "browser_action": {
+    "default_icon": "panthers.png",
+    "default_popup": "popup.html"
+  }
+}
